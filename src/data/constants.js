@@ -9,7 +9,7 @@ export const Bio = {
     development principles and a proven ability to implement innovative solutions.`,
   github: "https://github.com/gshyam46",
   resume:
-    "https://drive.google.com/file/d/1AZ6FdQbPbayuEm8migkPTcCr1tqiXDL9/view?usp=sharing",
+    "https://drive.google.com/file/d/1liHHf32cAKcNb3DQnxNtnaNI3htaCsbQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ghanashyam-45844624a/",
   twitter: "https://twitter.com/GShyam46",
   insta: "https://www.instagram.com/__.shyaamm.__/",
