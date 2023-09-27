@@ -30,13 +30,13 @@ const HeroSection = () => {
               Hi, I'm <br /> {Bio.name}
             </Title>
             <TextLoop>
-              I am a
               <Span>
                 <Typewriter
                   options={{
                     strings: Bio.roles,
                     autoStart: true,
                     loop: true,
+                    delay: 12,
                   }}
                 />
               </Span>
