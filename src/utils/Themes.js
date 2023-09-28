@@ -15,12 +15,13 @@ export const darkTheme = {
 export const lightTheme = {
   bg: "#FFFFFF", // White background
   bgLight: "#f0f0f0", // Light gray background
-  primary: "#6ACD60", // Primary green color
+  primary: "#0074D9", // Primary blue color (matching dark theme)
   text_primary: "#111111", // Dark text color
   text_secondary: "#48494a", // Secondary text color
   card: "#FFFFFF", // White card background
   card_light: "#ffffff", // White card background (same as card)
-  button: "#4D9E48", // Green button color
+  button: "#4D9E48", // Green button color (matching dark theme)
+  beige: "#F5F5DC", // Beige color for elegance
   white: "#FFFFFF", // White color
   black: "#000000", // Black color
 };
