@@ -99,11 +99,6 @@ export const skills = [
         name: "Amazon Web Services",
         image: "https://cdn.worldvectorlogo.com/logos/aws-2.svg",
       },
-      // {
-      //   name: "Netlify",
-      //   image:
-      //     "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      // },
       {
         name: "Postman",
         image:
@@ -138,7 +133,6 @@ export const experiences = [
       "Chrome Extension",
       "Google Cloud",
     ],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
 ];
 
@@ -162,7 +156,7 @@ export const education = [
     degree: "I & II PU, PCMCs",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://mlps.co.in/wp-content/uploads/2023/01/Martin-Luther-School-Logo.png",
     school: "Martin Luther Public School",
     date: "Apr 2017 - Apr 2019",
@@ -236,7 +230,7 @@ export const projects = [
     description:
       "Nova is an innovative software model utilizing advanced facial emotion recognition technology to understand and respond to human emotions, offering empathetic conversations, personalized content recommendations, and potential applications in improving human-computer interactions and emotional well-being.",
     image:
-      "https://raw.githubusercontent.com/gshyam46/Nova/main/output/output1.png",
+      "https://raw.githubusercontent.com/gshyam46/Nova/main/output/output.png",
     tags: [
       "Python",
       "Deep Neural Networks",
@@ -249,26 +243,15 @@ export const projects = [
     github: "https://github.com/gshyam46/Nova",
     webapp: "",
   },
-  // {
-  //   id: 3,
-  //   title: "BrainStorm",
-  //   date: "Sep 2023",
-  //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-  //   image:
-  //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-  //   tags: ["ReactNative", "FireBase", "FireSTore", "Google Drive Cloud API"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  // },
+
   {
     id: 10,
     title: "ReachOut",
     date: "Aug 2023 - Present",
     description:
       "Reach Out is an innovative business networking and audience engagement platform that facilitates collaboration and visibility for both online and offline businesses, fostering meaningful partnerships and providing cost-free marketing opportunities for entrepreneurs.",
-    image: "https://laxmibiz.com/wp-content/uploads/2015/07/ComingSoon.png",
+    image:
+      "https://raw.githubusercontent.com/gshyam46/ReachOut/main/prototype.png",
     tags: [
       "React Native",
       "Android Studio",
@@ -279,23 +262,11 @@ export const projects = [
       "AWS",
     ],
     category: "Ongoing",
+    github: "https://github.com/gshyam46/ReachOut",
   },
-  // {
-  //   id: 4,
-  //   title: "Whatsapp Clone",
-  //   date: "Jul 2021",
-  //   description:
-  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-  //   webapp: "https://whatsapp-clone-rishav.web.app",
-  // },
   {
     id: 5,
-    title: "ProjectPal",
+    title: "CampusCode",
     date: "Sep 2023 - Present",
     description:
       "ProjectPal is an online student platform for collaborative projects, source code access, student community for learning together forming study groups,share study materials and tutoring services, with an initial focus on core features using scalable frameworks like Django and Angular, and leveraging Google Meet for video conferencing.",
@@ -309,6 +280,8 @@ export const projects = [
       "RDMS",
       "Google cloud",
     ],
+    github: "https://github.com/gshyam46/CampusCode",
+
     category: "Ongoing",
   },
   {
@@ -324,19 +297,6 @@ export const projects = [
     github: "https://github.com/gshyam46/BrainStorm",
     webapp: "",
   },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
 ];
 
 export const TimeLineData = [

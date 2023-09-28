@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
+import colours from "../../themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -181,10 +181,12 @@ export const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    /* Light Blue and Purple Themed Background */
+    background: linear-gradient(225deg, hsla(240, 100%, 63%, 1) 0%, hsla(200, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(240, 100%, 60%, 1) 0%, hsla(300, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(240, 100%, 65%, 1) 0%, hsla(300, 100%, 50%, 1) 100%);
+    
+
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
